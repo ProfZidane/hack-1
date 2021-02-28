@@ -1,0 +1,62 @@
+page-langage {
+  .langage-img {
+    height: 20%;
+    background-color: #3C20CA;
+  }
+
+  .langage2-img {
+    width: 40%;
+    height: 40%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  .n2 {
+    margin-left: 4rem;
+  }
+
+  .n1 {
+    margin-left: 3rem;
+  }
+
+  .in-img {
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+
+  }
+
+  .in-img img {
+    margin-top: 1rem;
+    border-radius: 100%;
+  }
+
+  .trait {
+    border: solid 0.5px;
+    border-color: white;
+    margin-top: 0.5rem;
+  }
+}
+
+.row {
+}
+
+.mt {
+  margin-top: 4rem;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(to right, #1c1ab5 0%, #4a47e5 100%);
+  color: white;
+  box-shadow: 4px 4px 8px #b9aefa;
+}
+
+.card h2{
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+<!--
+  Generated template for the TextComPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="ramba">
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="langage-img" align="center">
+    <div class="in-img">
+      <img src="https://image.freepik.com/vecteurs-libre/colore-conception-du-robot_1148-9.jpg" alt="">
+      <div class="trait"></div>
+    </div>
+  </div>
+  <small style="padding: 0.5rem;">Pouvons-nous avoir les informations de la voiture ?</small>
+
+  <div class="container">
+    <small style="color: red;text-align: center;margin-left: 2rem;" *ngIf="err">Veuillez remplir l'entiereté du formulaire !</small>
+    <div class="row mt card">
+      <ion-item>
+        <ion-input placeholder="Immatriculation" name="immatriculation" [(ngModel)]="data.immatriculation" type="text" value=""></ion-input>
+      </ion-item>
+    </div>
+    <div class="row mt card">
+      <ion-item>
+        <ion-input placeholder="Marque" type="text" name="marque" [(ngModel)]="data.marque" value=""></ion-input>
+      </ion-item>
+    </div>
+    <div class="row mt card">
+      <ion-item>
+        <ion-input placeholder="Couleur" type="text" name="couleur" [(ngModel)]="data.couleur" value=""></ion-input>
+      </ion-item>
+    </div>
+    <div class="row mt card">
+      <ion-item>
+        <ion-input placeholder="Type" name="type" [(ngModel)]="data.type" type="text" value=""></ion-input>
+      </ion-item>
+    </div>
+    <div>
+      <button ion-button block round color="ramba" class="mt" (click)="goToValidation()">Valider</button>
+    </div>
+  </div>
+</ion-content>

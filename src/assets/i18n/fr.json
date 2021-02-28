@@ -1,0 +1,19 @@
+{
+  "LANGUES" : {
+    "q1" : "Choissisez votre langue de communication",
+    "l1" : "Français",
+    "l2" : "Anglais",
+    "l3" : "Djoula",
+    "l4" : "Baoulé"
+  },
+  "INFO" : {
+    "q2" : "Pouvons-nous avoir les informations de la voiture ?",
+    "pl1": "Immatriculation",
+    "pl12": "Marque",
+    "pl3": "Couleur",
+    "pl4" : "Type"
+  },
+  "BTN" : {
+    "text" : "Valider"
+  }
+}

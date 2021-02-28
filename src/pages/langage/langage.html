@@ -1,0 +1,40 @@
+<!--
+  Generated template for the LangagePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="ramba">
+    <ion-title></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <div class="langage-img" align="center">
+    <div class="in-img">
+      <img src="https://image.freepik.com/vecteurs-libre/colore-conception-du-robot_1148-9.jpg" alt="">
+      <div class="trait"></div>
+    </div>
+  </div>
+  <small style="padding: 3rem;">Choissisez votre langue de communication</small>
+
+  <div class="container">
+    <div class="row mt card" (click)="selectLanguage('french')">
+      <h2>Français</h2>
+      <img src="https://image.freepik.com/vecteurs-libre/illustration-du-drapeau-france_53876-27099.jpg" class="langage2-img" alt="">
+    </div>
+    <div class="row mt card" (click)="selectLanguage('english')">
+      <h2>Anglais</h2>
+      <img src="https://image.freepik.com/vecteurs-libre/illustration-du-drapeau-etats-unis_53876-18165.jpg" class="langage2-img n1" alt="">
+    </div>
+    <div class="row mt card" (click)="selectLanguage('djoula')">
+      <h2>Djoula</h2>
+      <img src="https://image.freepik.com/photos-gratuite/cote-ivoire-drapeau-tissu-cote-ivoire_160901-743.jpg" class="langage2-img n2" alt="">
+    </div>
+    <div class="row mt card" (click)="selectLanguage('baoule')">
+      <h2>Baoulé</h2>
+      <img src="https://image.freepik.com/photos-gratuite/cote-ivoire-drapeau-tissu-cote-ivoire_160901-743.jpg" class="langage2-img n2" alt="">
+    </div>
+  </div>
+</ion-content>

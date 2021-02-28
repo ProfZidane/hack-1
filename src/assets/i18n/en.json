@@ -1,0 +1,19 @@
+{
+  "LANGUES" : {
+    "q1": "choose your language of communication",
+    "l1" : "French",
+    "l2" : "English",
+    "l3" : "Djoula",
+    "l4" : "Baoulé"
+  },
+  "INFO" : {
+    "q2" : "Pouvons-nous avoir les informations de la voiture ?",
+    "pl1": "Registration",
+    "pl12": "Mark",
+    "pl3": "Color",
+    "pl4" : "Type"
+  },
+  "BTN" : {
+    "text" : "Submit"
+  }
+}
